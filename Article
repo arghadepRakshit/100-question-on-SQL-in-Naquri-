@@ -1,0 +1,2 @@
+SELECT DISTINCT viewer_id AS id FROM Views GROUP BY viewer_id, view_date HAVING COUNT(DISTINCT article_id) > 1 ORDER BY 1;
+link of the question: https://www.naukri.com/code360/problems/article_2181187?topList=top-100-sql-problems&problemListRedirection=true&difficulty%5B%5D=Medium&difficulty%5B%5D=Easy&leftPanelTabValue=PROBLEM
