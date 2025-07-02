@@ -1,0 +1,2 @@
+select * from CITY where Population > 100000;
+link of the question: https://www.naukri.com/code360/problems/marvel-cities_2242793?topList=top-100-sql-problems&problemListRedirection=true&difficulty%5B%5D=Easy&leftPanelTabValue=SUBMISSION
