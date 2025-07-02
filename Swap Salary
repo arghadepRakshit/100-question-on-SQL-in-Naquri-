@@ -1,0 +1,7 @@
+UPDATE salary
+SET sex = CASE 
+             WHEN sex = 'm' THEN 'f'
+             ELSE 'm'
+          END;
+
+Link of the question: https://www.naukri.com/code360/problems/swap-salary_2110762?topList=top-100-sql-problems&problemListRedirection=true&leftPanelTabValue=SUBMISSION
