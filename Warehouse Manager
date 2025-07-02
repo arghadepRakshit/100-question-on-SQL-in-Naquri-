@@ -1,0 +1,8 @@
+SELECT name AS warehouse_name,
+       SUM((Width * Length * Height) * units) AS volume
+FROM warehouse
+JOIN Products
+ON warehouse.product_id = Products.product_id
+GROUP BY name;
+
+Link of the question :https://www.naukri.com/code360/problems/warehouse-manager_2181185?topList=top-100-sql-problems&problemListRedirection=true&difficulty%5B%5D=Easy&leftPanelTabValue=PROBLEM
