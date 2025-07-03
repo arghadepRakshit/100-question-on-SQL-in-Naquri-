@@ -1,0 +1,11 @@
+select E.Name as Employee
+
+from Employee E 
+
+join Employee M 
+
+on E.ManagerId = M.Id 
+
+where E.Salary > M.Salary;
+
+link of the question: https://www.naukri.com/code360/problems/employees-earning-more-than-their-managers_2111944?topList=top-100-sql-problems&problemListRedirection=true&difficulty%5B%5D=Medium&leftPanelTabValue=SUBMISSION
