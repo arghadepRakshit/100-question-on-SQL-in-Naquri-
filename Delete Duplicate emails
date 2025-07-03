@@ -1,0 +1,10 @@
+DELETE FROM Person 
+WHERE Id NOT IN (
+    SELECT * 
+    FROM (
+        SELECT MIN(Id) 
+        FROM Person 
+        GROUP BY Email
+    ) AS p
+);
+link of the question: https://www.naukri.com/code360/problems/delete-duplicate-emails_2111947?topList=top-100-sql-problems&problemListRedirection=true&difficulty%5B%5D=Medium&attempt_status=NOT_ATTEMPTED&count=25&page=3&search=&sort_entity=order&sort_order=ASC&leftPanelTabValue=PROBLEM&customSource=studio_nav
