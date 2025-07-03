@@ -1,0 +1,2 @@
+select class from courses group by class having count(class) >=5;
+link of the question : https://www.naukri.com/code360/problems/classes-more-than-5-students_2105464?topList=top-100-sql-problems&problemListRedirection=true&difficulty%5B%5D=Medium&leftPanelTabValue=SUBMISSION&count=25&page=1&search=&sort_entity=order&sort_order=ASC&customSource=studio_nav
