@@ -1,0 +1,2 @@
+select customers.NameCust as "Customers" from customers where customers.id not in ( select CustomerId from Orders );
+link of the question : https://www.naukri.com/code360/problems/customers-who-never-order_2111946?topList=top-100-sql-problems&problemListRedirection=true&difficulty%5B%5D=Medium&attempt_status=COMPLETED
